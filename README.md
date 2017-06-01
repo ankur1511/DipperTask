@@ -32,3 +32,7 @@ For the execution of Code follow the following steps:
    for executing the Project write command java -jar DipperTask-0.0.1-SNAPSHOT.jar.
 4) You can test three API's using CURL or by using POSTMAN by downloading it from here https://www.getpostman.com/apps.
 
+ GET http://127.0.0.1/api/request??connid=19&timeout=10
+ GET http://127.0.0.1/api/serverStatus
+ PUT http://127.0.0.1/api/kill  and payload/requestbody {"connid":1}
+
